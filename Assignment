@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body {
+                background-color: rgb(231, 222, 219);
+            }
+            div {
+                display: inline-block;
+                
+            }
+        
+            .inp {
+                padding:0px;
+                /*border:2px solid powderblue;*/
+                border-redios:2px;
+            }
+            .i {
+                margin-left: 100px;
+                 
+            }
+            .ii {
+                margin-left: 100.5px;
+                 
+            }
+            .iii {
+                margin-left: 134px;
+                 
+            }
+            .iv {
+                margin-left: 138px;
+                 
+            }
+            .v {
+                margin-left: 120px;
+                 
+            }
+            .vi {
+   margin-left: 90px;
+   }
+   
+.vii {
+    margin-left: 129px;
+}
+
+.viii {
+    margin-left: 151px;
+}
+
+.ix {
+    margin-left: 123px;
+}
+
+.x {
+    margin-left: 140px;
+}
+
+.xi {
+    margin-left: 88px;
+}
+
+.xii {
+    margin-left: 73px;
+}
+
+.xiii {
+    margin-left: 105px;
+}
+.contener {
+    margin-left:3px;
+}
+        </style>
+    </head>
+    <body>
+        <h2>Sudent Regestration Form</h2>
+        <div class="container"><div>First Name:</div>
+        <div class="i"><input placeholder="Enter your first name" type="text" size="5"></div></div><br>
+        
+        <div class="container"></div><div>Last Name:</div>
+        <div class="ii"><input placeholder="Enter your last name" type="text" size="5" ></div><br></div>
+        
+        <div class="container"></div><div>E-mail:</div>
+        <div class="iii"><input placeholder="It shud be @." type="email" size="5"></div><br></div>
+        
+        <div class="container"></div><div>Mobil:</div>
+        <div class="iv"><input placeholder="only 10 digits allow" type="number" size="5"></div><br></div>
+        
+        <div class="container"></div><div>Gender:</div>
+        <div class="v"><input id="male" name="gender" type="radio" size="5">male
+
+        <input id="female" name="gender" type="radio" >female
+        </div><br></div>
+        <div>Date of birth:</div>
+        <div class="vi"><div class="inp"><input placeholder="only 10 digits allow" type="date" ></div></div><br>
+        <div>Adress:</div>
+        <div class="vii"><div class="inp"><textarea size="5"></textarea></div><br></div>
+        
+        
+        <div>City:</div>
+        <div class="viii"><input placeholder="Your city name" size="5" type="text" >
+        </div><br>
+        <div>Aria pin:</div>
+        <div class="ix"><input placeholder="" type="number" size="5"></div><br>
+        
+        <div>State:</div>
+        <div class="x"><input placeholder="Your state name" type="text" size="5"></div><br>
+        
+        <div>Qualification:</div>
+        <div class="xi"><select placeholder="abc" id="abc" name="abc">
+            <option>Select your Qualification</option>
+            <option>B.A</option>
+            <option>B.com</option>
+            <option>B.Sc</option>
+        </select></div><br>
+        
+        <div>Specialization:</div>
+        <div class="xii"><input type="checkbox">Computer Since<br>
+        <input type="checkbox">Information Technology<br>
+<input type="checkbox">computer arcitekcher<br>
+<input type="checkbox">Tele Comunication</div><br>
+
+<div>Password:</div>
+<div class="xiii"><input type="password">
+</div><br />
+<button valu="ragistered">ragistered</button>
+        
+    </body>
+    
+</html>
